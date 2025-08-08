@@ -13,8 +13,8 @@ public class EmailTool{
 
     @Tool("Send an email to a recipient with a subject and message")
     public String sendEmail(String recipient, String subject, String body){
-        final String from = "sadhasivamarumugam.22ads@sonatech.ac.in";
-        final String password = "sadha@123$"; // Use environment variable or secure storage for production
+        final String from = "[your mail id]";
+        final String password = "[Your App Password]"; // Use environment variable or secure storage for production
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
